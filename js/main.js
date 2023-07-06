@@ -38,7 +38,7 @@ let sommaArray = sommaNumeri(arrayNumeri);
 console.log(sommaArray);
 
 
-let mediaArray = mediaArray(arrayNumeri);
+let mediaArray = mediaNumeri(arrayNumeri);
 console.log(mediaArray);
 
 
@@ -63,7 +63,19 @@ function sommaNumeri(arrayNumeri) {
 
 }
 
+function mediaNumeri(arrayNumeri) {
 
+    let somma = 0
+
+    for (let i= 0; i < arrayNumeri.length; i++) {
+
+        somma = somma + arrayNumeri[i];
+
+        media = somma / arrayNumeri.length;
+    }
+
+    return media ;
+}
 
 
 
