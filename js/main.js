@@ -9,7 +9,7 @@ Utilizzare la funzione sommaNumeri per stampare il risultato.
 
 
 let arrayNumeri = [];
-let sommanumeriArray = arrayNumeri +     
+ 
 
 
 
@@ -22,7 +22,11 @@ for(let i= 0; i < n ; i++){
 
 }
 
-function
+function sommaNumeri(arrayNumeri){
+    sommaNumeri = arrayNumeri + arrayNumeri[i]
+}
+
+console.log(sommaNumeri);
 
 
 
